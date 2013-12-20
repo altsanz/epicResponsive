@@ -5,6 +5,8 @@ $(document).ready(function() {
     $myAudio.on('canplaythrough', function() {
         this.play();
     });
-
-    $myAudio.trigger('canplaythrough');
+    
+    $('iframe').on('load', function() {
+    	$myAudio.trigger('canplaythrough');
+    });
 });
