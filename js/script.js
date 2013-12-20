@@ -9,7 +9,7 @@ $(document).ready(function() {
     $('iframe').on('load', function() {
     	
     	var timeTransition = 20*1000,	// 20 seconds
-    		frequencyResizing = 50 // on miliseconds
+    		frequencyResizing = 100 // on miliseconds
     		numIterations = timeTransition/frequencyResizing,
     		initialWidth = $(window).height(),
     		finalWidth = 320,
