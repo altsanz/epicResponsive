@@ -1,0 +1,15 @@
+{
+  "name": "epicResponsive",
+  "description": "Giving epicness to web browser resizing",
+  "version": "1.0.0",
+  "keywords": [
+    "epic",
+    "responsive"
+  ],
+  "homepage": "http://epicresponsive.com/",
+  "author": "63Studio",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
